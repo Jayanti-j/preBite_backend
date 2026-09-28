@@ -1,0 +1,17 @@
+{
+    "compilerOptions":{
+        "target": "esnext",
+        "module": "nodenext", 
+        "moduleResolution":"nodenext",
+        "lib":["ESNext"],
+        "types": ["node"],
+        "strict": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "noEmit": true,
+        "outDir":"dist",
+    }, 
+    "include":["src/**/*.ts"], 
+    "exclude":["node_modules", "dist", "migraton"]
+}
