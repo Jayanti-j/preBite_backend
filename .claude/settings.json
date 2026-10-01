@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node src/app/connection/pg.connection.ts)",
+      "Bash(npx tsc *)"
+    ]
+  }
+}
